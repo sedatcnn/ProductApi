@@ -73,7 +73,7 @@ https://localhost:{port}/swagger
 
 ##  🔹 Commit ve Versiyonlama
 
-Geliştirme sürecinde minimum 3 commit yapılmıştır.
+Geliştirme sürecinde tek commit yapılmıştır.
 Branch: phase1-monolith
 
 ##  🔹 Test
