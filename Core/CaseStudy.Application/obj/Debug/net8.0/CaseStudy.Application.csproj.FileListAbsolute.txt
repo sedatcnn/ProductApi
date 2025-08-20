@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\bin\Debug\net8.0\CaseStudy.Application.deps.json
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\bin\Debug\net8.0\CaseStudy.Application.runtimeconfig.json
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\bin\Debug\net8.0\CaseStudy.Application.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\bin\Debug\net8.0\CaseStudy.Application.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\bin\Debug\net8.0\CaseStudy.Domian.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\bin\Debug\net8.0\CaseStudy.Domian.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStud.574F3929.Up2Date
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\refint\CaseStudy.Application.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\ref\CaseStudy.Application.dll

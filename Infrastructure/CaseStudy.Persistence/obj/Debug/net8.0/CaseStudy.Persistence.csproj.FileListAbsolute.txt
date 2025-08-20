@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\bin\Debug\net8.0\CaseStudy.Persistence.deps.json
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\bin\Debug\net8.0\CaseStudy.Persistence.dll
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\bin\Debug\net8.0\CaseStudy.Persistence.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\bin\Debug\net8.0\CaseStudy.Domian.dll
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\bin\Debug\net8.0\CaseStudy.Domian.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStud.A61ADFE0.Up2Date
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.dll
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\refint\CaseStudy.Persistence.dll
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\ref\CaseStudy.Persistence.dll
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\bin\Debug\net8.0\CaseStudy.Persistence.runtimeconfig.json
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.genruntimeconfig.cache
