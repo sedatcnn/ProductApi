@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\De
 C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\ref\CaseStudy.Persistence.dll
 C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\bin\Debug\net8.0\CaseStudy.Persistence.runtimeconfig.json
 C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\CaseStudy\Infrastructure\CaseStudy.Persistence\obj\Debug\net8.0\CaseStudy.Persistence.sourcelink.json

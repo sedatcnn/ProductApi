@@ -41,24 +41,7 @@ namespace CaseStudy.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product", (string)null);
-                });
-
-            modelBuilder.Entity("CaseStudy.Domian.Entites.Role", b =>
-                {
-                    b.Property<int>("RoleId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("RoleId"));
-
-                    b.Property<string>("RoleName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("RoleId");
-
-                    b.ToTable("Role", (string)null);
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("CaseStudy.Domian.Entites.User", b =>
@@ -75,33 +58,13 @@ namespace CaseStudy.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("RoleId")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("RolesRoleId")
-                        .HasColumnType("integer");
-
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RolesRoleId");
-
-                    b.ToTable("User", (string)null);
-                });
-
-            modelBuilder.Entity("CaseStudy.Domian.Entites.User", b =>
-                {
-                    b.HasOne("CaseStudy.Domian.Entites.Role", "Roles")
-                        .WithMany()
-                        .HasForeignKey("RolesRoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Roles");
+                    b.ToTable("User");
                 });
 #pragma warning restore 612, 618
         }

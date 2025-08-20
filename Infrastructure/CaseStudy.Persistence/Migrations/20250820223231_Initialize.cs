@@ -26,18 +26,6 @@ namespace CaseStudy.Persistence.Migrations
                     table.PrimaryKey("PK_Product", x => x.Id);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Role",
-                columns: table => new
-                {
-                    RoleId = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    RoleName = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Role", x => x.RoleId);
-                });
 
             migrationBuilder.CreateTable(
                 name: "User",
@@ -47,24 +35,15 @@ namespace CaseStudy.Persistence.Migrations
                     UserName = table.Column<string>(type: "text", nullable: false),
                     Email = table.Column<string>(type: "text", nullable: false),
                     PasswordHash = table.Column<string>(type: "text", nullable: false),
-                    RoleId = table.Column<string>(type: "text", nullable: false),
-                    RolesRoleId = table.Column<int>(type: "integer", nullable: false)
+
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_User", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_User_Role_RolesRoleId",
-                        column: x => x.RolesRoleId,
-                        principalTable: "Role",
-                        principalColumn: "RoleId",
-                        onDelete: ReferentialAction.Cascade);
+
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_User_RolesRoleId",
-                table: "User",
-                column: "RolesRoleId");
+ 
         }
 
         /// <inheritdoc />
@@ -76,8 +55,7 @@ namespace CaseStudy.Persistence.Migrations
             migrationBuilder.DropTable(
                 name: "User");
 
-            migrationBuilder.DropTable(
-                name: "Role");
+
         }
     }
 }
