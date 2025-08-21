@@ -7,6 +7,8 @@ using CaseStudy.Persistence.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using ProductApi;
+using Serilog;
 using System;
 using System.Security.Claims;
 using System.Text;
@@ -23,8 +25,16 @@ builder.Services.AddCors(opt =>
         .AllowCredentials();
     });
 });
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+    options.InstanceName = "ProductApi_";
+});
 
-
+builder.Host.UseSerilog((context, services, configuration) =>
+    configuration.ReadFrom.Configuration(context.Configuration)
+                 .Enrich.FromLogContext()
+                 .WriteTo.Console());
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(opt =>
     {
@@ -47,6 +57,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 // MSSQL için: UseSqlServer(...)
 builder.Services.AddScoped(typeof(IProductRepository<>), typeof(Repository<>));
 builder.Services.AddScoped(typeof(IWithRepository), typeof(WithRepository));
+builder.Services.AddScoped<IProductService, ProductService>();
 
 builder.Services.AddScoped<CreateUserCommandHandler>();
 builder.Services.AddScoped<UpdateUserCommandHandler>();
@@ -78,6 +89,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseCors("CorsPolicy");
 app.MapControllers();

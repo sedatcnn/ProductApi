@@ -10,3 +10,4 @@ C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\Case
 C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\refint\CaseStudy.Domian.dll
 C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.pdb
 C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\ref\CaseStudy.Domian.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.sourcelink.json

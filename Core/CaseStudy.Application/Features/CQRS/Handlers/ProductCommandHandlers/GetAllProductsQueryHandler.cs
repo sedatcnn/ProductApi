@@ -11,15 +11,17 @@ namespace CaseStudy.Application.Features.CQRS.Handlers.ProductCommandHandlers
 {
     public class GetAllProductsQueryHandler
     {
-        private readonly IWithRepository _repository;
-        public GetAllProductsQueryHandler(IWithRepository repository)
+        private readonly IProductService _productService; // Cache ile çalışan servis
+
+        public GetAllProductsQueryHandler(IProductService productService)
         {
-            _repository = repository;
+            _productService = productService;
         }
 
         public async Task<List<GetAllProductsQueryResult>> Handle(GetAllProductsQuery query)
         {
-            var products =  _repository.GetProductAsync();
+            var products = await _productService.GetAllAsync(); // artık cache kullanıyor
+
             return products.Select(p => new GetAllProductsQueryResult
             {
                 Id = p.Id,
@@ -29,4 +31,5 @@ namespace CaseStudy.Application.Features.CQRS.Handlers.ProductCommandHandlers
             }).ToList();
         }
     }
+
 }

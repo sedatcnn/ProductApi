@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0
 C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.pdb
 C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\ref\CaseStudy.Application.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Application\obj\Debug\net8.0\CaseStudy.Application.sourcelink.json

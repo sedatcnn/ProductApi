@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A7756F-C74D-446B-8DAB-E86BB6811CB2}|Presentation\\ProductApi\\ProductApi.csproj|c:\\users\\asus\\source\\repos\\casestudy\\presentation\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0A7756F-C74D-446B-8DAB-E86BB6811CB2}|Presentation\\ProductApi\\ProductApi.csproj|solutionrelative:presentation\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{438924E6-2934-46F3-AFA5-1A400F0757AE}|Core\\CaseStudy.Application\\CaseStudy.Application.csproj|c:\\users\\asus\\source\\repos\\casestudy\\core\\casestudy.application\\features\\cqrs\\handlers\\productcommandhandlers\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438924E6-2934-46F3-AFA5-1A400F0757AE}|Core\\CaseStudy.Application\\CaseStudy.Application.csproj|solutionrelative:core\\casestudy.application\\features\\cqrs\\handlers\\productcommandhandlers\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A7756F-C74D-446B-8DAB-E86BB6811CB2}|Presentation\\ProductApi\\ProductApi.csproj|c:\\users\\asus\\source\\repos\\casestudy\\presentation\\productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0A7756F-C74D-446B-8DAB-E86BB6811CB2}|Presentation\\ProductApi\\ProductApi.csproj|solutionrelative:presentation\\productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B7F4C-D85F-4A44-8336-4E0060376F5C}|Infrastructure\\CaseStudy.Persistence\\CaseStudy.Persistence.csproj|c:\\users\\asus\\source\\repos\\casestudy\\infrastructure\\casestudy.persistence\\repositories\\withrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B7F4C-D85F-4A44-8336-4E0060376F5C}|Infrastructure\\CaseStudy.Persistence\\CaseStudy.Persistence.csproj|solutionrelative:infrastructure\\casestudy.persistence\\repositories\\withrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B7F4C-D85F-4A44-8336-4E0060376F5C}|Infrastructure\\CaseStudy.Persistence\\CaseStudy.Persistence.csproj|c:\\users\\asus\\source\\repos\\casestudy\\infrastructure\\casestudy.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B7F4C-D85F-4A44-8336-4E0060376F5C}|Infrastructure\\CaseStudy.Persistence\\CaseStudy.Persistence.csproj|solutionrelative:infrastructure\\casestudy.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B7F4C-D85F-4A44-8336-4E0060376F5C}|Infrastructure\\CaseStudy.Persistence\\CaseStudy.Persistence.csproj|c:\\users\\asus\\source\\repos\\casestudy\\infrastructure\\casestudy.persistence\\repositories\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7B7F4C-D85F-4A44-8336-4E0060376F5C}|Infrastructure\\CaseStudy.Persistence\\CaseStudy.Persistence.csproj|solutionrelative:infrastructure\\casestudy.persistence\\repositories\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC701CE-1879-4342-A1FC-DC30FE148977}|Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj|c:\\users\\asus\\source\\repos\\casestudy\\core\\casestudy.domian\\interfaces\\iwithrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC701CE-1879-4342-A1FC-DC30FE148977}|Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj|solutionrelative:core\\casestudy.domian\\interfaces\\iwithrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC701CE-1879-4342-A1FC-DC30FE148977}|Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj|c:\\users\\asus\\source\\repos\\casestudy\\core\\casestudy.domian\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC701CE-1879-4342-A1FC-DC30FE148977}|Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj|solutionrelative:core\\casestudy.domian\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC701CE-1879-4342-A1FC-DC30FE148977}|Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj|c:\\users\\asus\\source\\repos\\casestudy\\core\\casestudy.domian\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC701CE-1879-4342-A1FC-DC30FE148977}|Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj|solutionrelative:core\\casestudy.domian\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 369,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Presentation\\ProductApi\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\ProductApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Presentation\\ProductApi\\Program.cs",
+              "RelativeToolTip": "Presentation\\ProductApi\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAWwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:42:40.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Application\\Features\\CQRS\\Handlers\\ProductCommandHandlers\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\CaseStudy.Application\\Features\\CQRS\\Handlers\\ProductCommandHandlers\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Application\\Features\\CQRS\\Handlers\\ProductCommandHandlers\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "Core\\CaseStudy.Application\\Features\\CQRS\\Handlers\\ProductCommandHandlers\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:42:01.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Presentation\\ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\ProductApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Presentation\\ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Presentation\\ProductApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:41:18.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WithRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Infrastructure\\CaseStudy.Persistence\\Repositories\\WithRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CaseStudy.Persistence\\Repositories\\WithRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Infrastructure\\CaseStudy.Persistence\\Repositories\\WithRepository.cs",
+              "RelativeToolTip": "Infrastructure\\CaseStudy.Persistence\\Repositories\\WithRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:41:10.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Infrastructure\\CaseStudy.Persistence\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CaseStudy.Persistence\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Infrastructure\\CaseStudy.Persistence\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Infrastructure\\CaseStudy.Persistence\\Repositories\\Repository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:41:05.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IWithRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\Interfaces\\IWithRepository.cs",
+              "RelativeDocumentMoniker": "Core\\CaseStudy.Domian\\Interfaces\\IWithRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\Interfaces\\IWithRepository.cs",
+              "RelativeToolTip": "Core\\CaseStudy.Domian\\Interfaces\\IWithRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:40:49.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Core\\CaseStudy.Domian\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Core\\CaseStudy.Domian\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:40:41.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Core\\CaseStudy.Domian\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Core\\CaseStudy.Domian\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:23:39.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Infrastructure\\CaseStudy.Persistence\\Repositories\\ProductService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CaseStudy.Persistence\\Repositories\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Infrastructure\\CaseStudy.Persistence\\Repositories\\ProductService.cs",
+              "RelativeToolTip": "Infrastructure\\CaseStudy.Persistence\\Repositories\\ProductService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T12:10:17.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
