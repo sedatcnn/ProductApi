@@ -1,12 +1,16 @@
 ﻿using CaseStudy.Application.Features.CQRS.Commands.ProductCommand;
 using CaseStudy.Application.Features.CQRS.Handlers.ProductCommandHandlers;
 using CaseStudy.Application.Features.CQRS.Queries.ProductQueries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace ProductApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+    [EnableRateLimiting("global")]
     public class ProductsController : ControllerBase
     {
         private readonly CreateProductCommandHandler _createHandler;

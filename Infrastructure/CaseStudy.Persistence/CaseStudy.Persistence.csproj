@@ -14,9 +14,11 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.19" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\CaseStudy.Application\CaseStudy.Application.csproj" />
     <ProjectReference Include="..\..\Core\CaseStudy.Domian\CaseStudy.Domian.csproj" />
   </ItemGroup>
 

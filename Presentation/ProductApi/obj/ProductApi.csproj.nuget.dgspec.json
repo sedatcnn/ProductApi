@@ -188,6 +188,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Application\\CaseStudy.Application.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Application\\CaseStudy.Application.csproj"
+              },
               "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj": {
                 "projectPath": "C:\\Users\\ASUS\\source\\repos\\CaseStudy\\Core\\CaseStudy.Domian\\CaseStudy.Domian.csproj"
               }
@@ -227,6 +230,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -324,6 +331,10 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -331,6 +342,10 @@
             "Serilog.Sinks.Console": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

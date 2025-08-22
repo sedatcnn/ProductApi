@@ -166,3 +166,5 @@ C:\Users\ASUS\source\repos\CaseStudy\Presentation\ProductApi\bin\Debug\net8.0\Se
 C:\Users\ASUS\source\repos\CaseStudy\Presentation\ProductApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\ASUS\source\repos\CaseStudy\Presentation\ProductApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\ASUS\source\repos\CaseStudy\Presentation\ProductApi\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\ASUS\source\repos\CaseStudy\Presentation\ProductApi\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+C:\Users\ASUS\source\repos\CaseStudy\Presentation\ProductApi\bin\Debug\net8.0\RabbitMQ.Client.dll
