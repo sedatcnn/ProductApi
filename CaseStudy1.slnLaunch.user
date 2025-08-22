@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Presentation\\ProductApi\\ProductApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiGateway\\ApiGateway\\ApiGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Presentation\\LoginApi\\LoginApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Presentation\\UsersApi\\UsersApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\bin\Debug\net8.0\CaseStudy.Domian.deps.json
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\bin\Debug\net8.0\CaseStudy.Domian.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\bin\Debug\net8.0\CaseStudy.Domian.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\refint\CaseStudy.Domian.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.pdb
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\ref\CaseStudy.Domian.dll
+C:\Users\ASUS\source\repos\CaseStudy\Core\CaseStudy.Domian\obj\Debug\net8.0\CaseStudy.Domian.sourcelink.json

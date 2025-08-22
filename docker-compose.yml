@@ -1,0 +1,64 @@
+version: "3.9"
+
+services:
+  loginapi:
+    build:
+      context: .
+      dockerfile: Presentation/LoginApi/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+  productapi:
+    build:
+      context: .
+      dockerfile: Presentation/ProductApi/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8082
+      - ASPNETCORE_HTTPS_PORTS=8083
+    ports:
+      - "8082:8082"
+      - "8083:8083"
+    depends_on:
+      - loginapi
+
+  usersapi:
+    build:
+      context: .
+      dockerfile: Presentation/UsersApi/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8084
+      - ASPNETCORE_HTTPS_PORTS=8085
+    ports:
+      - "8084:8084"
+      - "8085:8085"
+    depends_on:
+      - loginapi
+      - productapi
+
+  apigateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/ApiGateway/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8090
+      - ASPNETCORE_HTTPS_PORTS=8091
+    ports:
+      - "8090:8090"
+      - "8091:8091"
+    depends_on:
+      - loginapi
+      - productapi
+      - usersapi
