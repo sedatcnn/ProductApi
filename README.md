@@ -218,47 +218,62 @@ Branch: test/v1.0.0
 
 # Product API - 3. Aşama (Microservices + API Gateway + CI)
 ## 🔹 Açıklama
-Monolitik yapıda geliştirilen Product Web API uygulaması, mikroservis mimarisine dönüştürüldü. Login API, User API ve Product API olmak üzere üç ayrı servise bölündü. Servisler arası iletişimi ve merkezi yetkilendirme yönetimini sağlamak için API Gateway (YARP) kullanıldı. Süreç, temel Continuous Integration (CI) pipeline'ı ile otomatize edilmeye başlandı.
+Monolitik yapıda geliştirilen Product Web API uygulaması, mikroservis mimarisine dönüştürüldü.Login API, User API ve Product API olmak üzere üç ayrı servise bölündü.Servisler arası iletişim, merkezi yetkilendirme ve ölçeklenebilirlik için API Gateway (YARP), RabbitMQ ve Docker Compose kullanıldı.Süreç, temel Continuous Integration (CI) pipeline'ı ile otomatize edildi.
 
 ## 🔹 Özellikler ve Gelişmeler
-Mimari Dönüşüm:
+**1. Mimari Dönüşüm**
 
-- Tek bir monolitik uygulama yerine, her biri kendi işlevinden sorumlu olan üç bağımsız mikroservis oluşturuldu.
+- Login API → Kullanıcı giriş & JWT üretimi
 
-- **Login API**: Kullanıcı giriş ve JWT üretimi.
+- User API → Kullanıcı CRUD işlemleri
 
-- **User API**: Kullanıcı CRUD işlemleri.
+- Product API → Ürün CRUD & Redis Cache işlemleri
 
-- **Product API**: Ürün CRUD ve Redis Cache işlemleri.
+- API Gateway (YARP) → Merkezi yetkilendirme, rota yönetimi
 
-- **Merkezi Kimli**k Doğrulama (Centralized Authentication):
+**2. Merkezi Kimlik Doğrulama**
 
-- Tüm kimlik doğrulama ve yetkilendirme işlemleri, YARP kullanan API Gateway katmanına taşındı.
+- Tüm kimlik doğrulama & yetkilendirme işlemleri API Gateway katmanına taşındı.
 
-- Mikroservisler artık kendi içlerinde JWT doğrulaması yapmıyor, bu işlem Gateway tarafından yönetiliyor.
+- Mikroservisler kendi içinde JWT doğrulaması yapmıyor, bu işlem Gateway tarafından yönetiliyor.
 
-Bu, servislerin daha hafif olmasını ve güvenlik mantığının tek bir yerden yönetilmesini sağlar.
+- Daha hafif servisler & merkezi güvenlik mantığı sağlandı.
 
-- **Otomatik Süreçler (CI Pipeline):**
+**3. Servisler Arası İletişim**
 
-- GitHub Actions kullanılarak temel bir CI pipeline'ı kuruldu.
+- Mikroservisler arasındaki mesajlaşma için RabbitMQ eklendi.
 
-- Her push ve pull request olayında kodlar otomatik olarak derlenir ve test edilir.
+- Olay tabanlı iletişim (event-driven architecture) yaklaşımı destekleniyor.
 
-- Bu sayede kod kalitesi ve kararlılığı artırılır, hatalar erken aşamada fark edilir.
+**4. Containerization & Orkestrasyon**
+
+- Tüm servisler Docker üzerinde containerize edildi.
+
+- Docker Compose ile servisler (API’ler, Gateway, RabbitMQ, Redis, PostgreSQL) tek komutla ayağa kaldırılabiliyor.
+
+**5. CI/CD Süreçleri**
+
+- GitHub Actions ile CI pipeline kuruldu.
+
+- Her push ve pull request’te:
+
+- Kod derleniyor
+
+- Unit test’ler çalıştırılıyor
+
+- Docker imajları build ediliyor
+
+(Planlanan) CD aşaması ile otomatik dağıtım yapılacak.
 
 ## 🔹 Tamamlananlar
-- [x] Monolitik yapının mikroservislere ayrılması.
-
-- [x] Login, User ve Product servislerinin oluşturulması.
-
-- [x] API Gateway projesinin kurulması ve rota tanımlamalarının yapılması.
-
-- [x] JWT yetkilendirme mantığının tüm servislerden kaldırılıp API Gateway'e taşınması.
-
-- [x] API Gateway'de JWT doğrulaması ve rota bazlı yetkilendirme politikalarının uygulanması.
-
-- [x] GitHub Actions için temel CI pipeline'ının oluşturulması (.github/workflows/ci-pipeline.yml).
+- ✅ Monolitik yapının mikroservislere ayrılması
+- ✅ Login, User ve Product servislerinin oluşturulması
+- ✅ API Gateway kurulumu & rota tanımları
+- ✅ JWT yetkilendirmesinin Gateway’e taşınması
+- ✅ Redis cache entegrasyonu
+- ✅ RabbitMQ entegrasyonu
+- ✅ Docker & Docker Compose entegrasyonu
+- ✅ GitHub Actions CI pipeline (.github/workflows/ci-pipeline.yml)
 <img width="1573" height="891" alt="Ekran görüntüsü 2025-08-22 192744" src="https://github.com/user-attachments/assets/59e680f8-7c9c-4365-bd1e-c8ee9c622f7a" />
 
 ## 🔹 Eksikler ve Gelecek Planı
