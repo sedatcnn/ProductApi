@@ -259,6 +259,7 @@ Bu, servislerin daha hafif olmasını ve güvenlik mantığının tek bir yerden
 - [x] API Gateway'de JWT doğrulaması ve rota bazlı yetkilendirme politikalarının uygulanması.
 
 - [x] GitHub Actions için temel CI pipeline'ının oluşturulması (.github/workflows/ci-pipeline.yml).
+<img width="1573" height="891" alt="Ekran görüntüsü 2025-08-22 192744" src="https://github.com/user-attachments/assets/59e680f8-7c9c-4365-bd1e-c8ee9c622f7a" />
 
 ## 🔹 Eksikler ve Gelecek Planı
 - **Sürekli Dağıtım (CD)**: Şu an sadece CI aşaması tamamlandı. Gelecekte, derlenen ve test edilen uygulamaların otomatik olarak bir sunucuya veya bulut ortamına (Azure, AWS) dağıtılması için bir CD pipeline'ı eklenmeli.
